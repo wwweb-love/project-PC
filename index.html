@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-one">
+            <div class="heaeder-one--content">
+                <div class="header-one-info">
+                    <div class="header-city">
+                        <div class="header-city-img"></div>
+                        <div class="header-city-text">Астрахань</div>
+                    </div>
+                    <div class="header-number">+8(927) 555--63--57</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="header-two">
+            <div class="header-two--content">
+                <!-- <div class="logo-img"></div> -->
+                <div class="header-two-nav">
+                    <div class="logo-img"></div>
+                    <div class="home item">Главная</div>
+                    <div class="news item">Новости</div>
+                    <div class="product item">Товары</div>
+                    <div class="services item">Услуги</div>
+                    <div class="info item">Контакты</div>
+                </div>
+                <div class="header-basket">
+                    <div class="basket-img"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+
+            <!-- Первый слайд -->
+            <div class="slider-item slider-one">
+                <img src="/img/slider/one-slider.jpg">
+            </div>
+
+            <!-- Второй слайд -->
+            <div class="slider-item slider-two">
+                <img src="/img/slider/two-slider.jpg">
+            </div>
+
+            <div class="slider-item slider-three">
+                <img src="/img/slider/three-slider.jpg">
+            </div>
+
+            <!-- Кнопки-стрелочки -->
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <button class="btn-cotent">пк в наличии</button>
+                <p class="text-word">Создаем компьютеры, которые будут дарить геймерам и тврческим профессионалам
+                    удовольствие от использования</p>
+            </div>
+            <div class="content-products">
+                <div class="products-item">
+                    <div class="item-img item-img-one"></div>
+                    <div class="item-name">
+                        <div class="name-head">Оптимальные</div>
+                        <div class="name-add">Сбалансированные игровые ПК</div>
+                    </div>
+                    <div class="item-config">
+                        <div class="videokarta">
+                            <div class="videokarta-img"></div>
+                            <p class="videokarta-text">NVIDIA Geforce RTX 4060 / 4060 Ti / 4070</p>
+                        </div>
+                        <div class="proccessor">
+                            <div class="proccessor-img"></div>
+                            <p class="proccessor-text">Intel Core i3 /i5 / i7, F-серия</p>
+                        </div>
+                        <div class="cooling">
+                            <div class="cooling-img"></div>
+                            <p class="cooling-text">Воздушное/водяное охлаждение</p>
+                        </div>
+                        <div class="memory">
+                            <div class="memory-img"></div>
+                            <p class="memory-text">До 32GB оперативной памяти DDR4</p>
+                        </div>
+                    </div>
+
+                    <button class="products-count">12 комплектаций</button>
+                    <div class="products-price">
+                        <div class="head-price">От 119 000 Р</div>
+                        <div class="rassrochka-price">4 445 Р/мес</div>
+                    </div>
+                    <div class="products-info">
+                        <button class="products-info-btn">подробнее</button>
+                    </div>
+                </div>
+
+                <div class="products-item">
+                    <div class="item-img item-img-two"></div>
+                    <div class="item-name">
+                        <div class="name-head">Мощные</div>
+                        <div class="name-add">Мощные премиальные игровые ПК</div>
+                    </div>
+                    <div class="item-config">
+                        <div class="videokarta">
+                            <div class="videokarta-img"></div>
+                            <p class="videokarta-text">NVIDIA Geforce RTX 4070 (Ti) / 4080 / 4090</p>
+                        </div>
+                        <div class="proccessor">
+                            <div class="proccessor-img"></div>
+                            <p class="proccessor-text">Intel Core i5 / i7 / i9</p>
+                        </div>
+                        <div class="cooling">
+                            <div class="cooling-img"></div>
+                            <p class="cooling-text">Замкнутое водяное охлаждение</p>
+                        </div>
+                        <div class="memory">
+                            <div class="memory-img"></div>
+                            <p class="memory-text">До 96GB оперативной памяти DDR5</p>
+                        </div>
+                    </div>
+
+                    <button class="products-count">9 комплектаций</button>
+                    <div class="products-price">
+                        <div class="head-price">От 218 500 Р</div>
+                        <div class="rassrochka-price">8 121 Р/мес</div>
+                    </div>
+                    <div class="products-info">
+                        <button class="products-info-btn">подробнее</button>
+                    </div>
+                </div>
+                <div class="products-item">
+                    <div class="item-img item-img-three"></div>
+                    <div class="item-name">
+                        <div class="name-head">Кастомные</div>
+                        <div class="name-add">Эксклюзивные с кастомным охлаждением</div>
+                    </div>
+                    <div class="item-config">
+                        <div class="videokarta">
+                            <div class="videokarta-img"></div>
+                            <p class="videokarta-text">NVIDIA Geforce RTX 4090</p>
+                        </div>
+                        <div class="proccessor">
+                            <div class="proccessor-img"></div>
+                            <p class="proccessor-text">Intel Core i9</p>
+                        </div>
+                        <div class="cooling">
+                            <div class="cooling-img"></div>
+                            <p class="cooling-text">Кастомное водяное охлаждение</p>
+                        </div>
+                        <div class="memory">
+                            <div class="memory-img"></div>
+                            <p class="memory-text">До 96GB оперативной памяти DDR5</p>
+                        </div>
+                    </div>
+
+                    <button class="products-count">5 комплектаций</button>
+                    <div class="products-price">
+                        <div class="head-price">От 1 001 400 Р</div>
+                        <div class="rassrochka-price">37 216 Р/мес</div>
+                    </div>
+                    <div class="products-info">
+                        <button class="products-info-btn">подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-one">
+            <div class="models">
+                <p class="models-head">Модели</p>
+                <p class="models-text">Игровые компьютеры</p>
+                <p class="models-text">Рабочии станции</p>
+                <p class="models-text">Игровые ноутбуки</p>
+                <p class="models-text">Каталог</p>
+            </div>
+            <div class="services">
+                <p class="services-head">Услуги</p>
+                <p class="services-text">Модернизация</p>
+                <p class="services-text">Техническое обслуживание</p>
+                <p class="services-text">Моддинг и кастомизация</p>
+                <p class="services-text">Сервис-центр</p>
+                <p class="services-text">Трейд-ин</p>
+            </div>
+            <div class="help">
+                <p class="help-head">Поддержка</p>
+                <p class="help-text">Доставка</p>
+                <p class="help-text">Оплата</p>
+                <p class="help-text">Рассрочка и кредит</p>
+                <p class="help-text">Гарантия</p>
+                <p class="help-text">FAQ</p>
+                <p class="help-text">База знаний</p>
+                <p class="help-text">Запись на сервис</p>
+            </div>
+            <div class="project">
+                <p class="project-head">Проекты</p>
+                <p class="project-text">Блогеры</p>
+                <p class="project-text">Игровые клубы</p>
+                <p class="project-text">Киберспорт</p>
+                <p class="project-text">Мероприятия</p>
+            </div>
+            <div class="company">
+                <p class="company-head">Компания</p>
+                <p class="company-text">Контакты</p>
+                <p class="company-text">О нас</p>
+                <p class="company-text">Наше производство</p>
+                <p class="company-text">Почему мы?</p>
+                <p class="company-text">Новости</p>
+                <p class="company-text">Статьи</p>
+                <p class="company-text">Вакансии</p>
+            </div>
+            <div class="info">
+                <p class="info-head">Контакты</p>
+                <p class="info-text">+7(927) 555--63--57</p>
+                <p class="info-text">Ежедневно с 10.00 до 21.00</p>
+                <p class="info-text">Астрахань, ул. Кировоградская</p>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="vk-footer footer-two-message">
+                <div class="vk-img-footer"></div>
+                <div class="vk-text">
+                    <div class="vk-text-name footer-two-text-name">вконтакте</div>
+                    <div class="vk-text-number footer-two-text-number">1.2 млн. подписчиков</div>
+                </div>
+            </div>
+            <div class="youtube-footer footer-two-message">
+                <div class="youtube-img-footer"></div>
+                <div class="youtube-text">
+                    <div class="youtube-text-name footer-two-text-name">youtube</div>
+                    <div class="youtube-text-number footer-two-text-number">65 млн. подписчиков</div>
+                </div>
+            </div>
+            <div class="telegram-footer footer-two-message">
+                <div class="telegram-img-footer"></div>
+                <div class="telegram-text">
+                    <div class="telegram-text-name footer-two-text-name">telegram</div>
+                    <div class="telegram-text-number footer-two-text-number">20 т. подписчиков</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>
